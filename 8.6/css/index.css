@@ -1,0 +1,195 @@
+header{
+width:7.04rem;
+height:0.4rem;
+margin:auto;
+margin-top:0.3rem;
+display:flex;
+justify-content: space-between;
+transition:height 1s ease;
+}
+.close-box{
+width:0.3rem;
+height:0.3rem;
+position: relative;
+}
+.close-one{
+width:0.45rem;
+height:0.03rem;
+position:absolute;
+left:0;
+top:0.15rem;
+transform:rotate(45deg);
+background:#000;
+transition: transform 1s ease;
+}
+.close-two{
+width:0.45rem;
+height:0.03rem;
+position:absolute;
+left:0;
+top:0.15rem;
+transform: rotate(-45deg);
+background:#000;
+transition: transform 1s ease;
+}
+.logo-box{
+width:0.98rem;
+height:0.4rem;
+}
+.logo-box img{
+display:block;
+width:108%;height: 100%;
+}
+.menu-more{
+width:0.4rem; height: 0.3rem;
+display:flex;
+justify-content:space-bctween;
+}
+.menu-more li{
+width:0.08rem; height:0.08rem;
+background:#000;
+margin-top: 0.1rem;
+border-radius: 50%;
+}
+nav{
+    margin:auto;
+    margin-top:0.6rem;
+    width: 7.04rem;
+    height: 0.4rem;
+    overflow: hidden;
+    position: relative;
+}
+.nav-box{
+    width:14rem;
+    height:100%;
+    position: absolute;
+    left:0 ;
+    top: 0;
+ }
+nav a{
+    float: left;
+    width:1rem;
+    height:100%;
+    margin-right :1rem;
+    font-size: 0.24rem;
+    color: #444;
+    line-height: 0.4rem;
+    text-decoration: none;
+    }
+    .nav-box a:last-child{
+        margin: 0;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height:3.84rem;
+        margin-top:0.2rem;
+    }  
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+.background-box{
+    background:#f6f6f6;
+    width:100%; 
+    border:1px solid#f6f6f6;
+    overflow:hidden;
+}
+.news-goods-title{
+    width:100%;height:0.91rem;
+    text-align:center;
+    margin-top:.8rem;
+ }
+.news-goods-title img{
+    height:100%;
+}
+.news-goods-list-num{
+text-align: right;
+font-size:0.28rem;
+margin-top:0.17rem;
+margin-bottom: 0.23rem;
+}
+.news-goods-list-num strong{
+margin-right: 0.3rem;
+}
+.news-goods-list-num span{
+color: #ffcb3f;
+font-weight:900;
+}
+.news-goods{
+    width:7.04rem;
+    height:5.1rem;
+    margin: auto;
+    position:relative;
+}    
+.news-goods-list-box{
+    width:13.15rem;
+    height:5.1rem;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.news-goods-list{
+    width:3.1rem;
+    height:5.1rem;
+    margin-right:0.25rem;
+    float:left;
+}
+.news-goods-list:last-child{
+    margin-right: 0;
+}
+.news-goods-list-top{
+width:100%;height:2.89rem;
+}
+.news-goods-list-top img{
+width:100%; height:100%;display: block;
+}
+.news-goods-list-middle{
+width:100%;height:0.65rem;
+line-height: 0.16rem;
+font-size: 0.16rem;
+margin-top: 0.2rem;
+margin-left: 0.2rem;
+}
+.news-goods-list-middle span .en{
+font-size:.18rem;
+color:#666666;
+display: block;
+margin-bottom: 0.1rem;
+}
+.news-goods-list-middle span .cn{
+font-size: .24rem;
+color:#000;
+display: block;
+letter-spacing: .03rem;
+}
+.news-goods-list-bottom{
+    width:100%;height: 0.65rem;
+    margin-top:0.7rem; 
+    line-height: 0.16rem;
+    font-size:0.16rem;
+    display: flex;
+    margin-left:0.2rem;
+}
+    .news-goods-list-bottom .price{
+    font-size: 0.30rem;
+    font-weight: 900;
+    letter-spacing:.03rem;
+     line-height: 0.4rem;
+    }
+    .news-goods-list-bottom .rmb{
+    font-size: 0.18rem;
+    font-weight: 900;
+    color:#777;
+    letter-spacing: .03rem;
+    line-height: 0.4rem;
+ }
+.buy-btn{
+    width:1.54rem;height:0.43rem;display: block;
+}
+.buy-btn img{
+    width:100%; height:100%;
+    margin-left:0.2rem;
+}
+   
+    
